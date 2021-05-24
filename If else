@@ -1,0 +1,10 @@
+a=(input("enter a value"))
+if(a%2==1):
+          print("a is odd")
+else:
+    print("a is even")
+
+#Output
+enter a value
+23456779
+a is odd
