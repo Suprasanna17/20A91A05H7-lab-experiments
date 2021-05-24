@@ -1,8 +1,8 @@
 a=int(raw_input("enter a value"))
-if(a%2==1):
-         print("a is odd")
+if(a%2==0):
+         print("a is even")
 else:
-     print("a is even")
+     print("a is odd")
 
 #Output
 enter a value
