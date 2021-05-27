@@ -1,16 +1,21 @@
 amt=int(input("enter amount purchased"))
 if(amt>1000):
         disc=amt*0.1
+        bill=amt-disc
 elseif(amt>2000):
         disc=amt*0.2
+        bill=amt-disc
 elseif(amt>3000):
         disc=amt*0.3
+        bill=amt-disc
 elseif(amt>5000):
         disc=amt*0.4
+        bill=amt-disc
 else:
         disc=amt*0
+        bill=amt
      print("discount=",disc)
-     print("bill=",amt-disc)
+     print("bill=",bill)
 
 
 #Output
