@@ -1,0 +1,18 @@
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+sum1=0
+for num in range(s,e+1):
+    if(num%2!=0):
+      sum1=sum1+num
+      print(sum1)
+
+
+output----
+enter starting value1
+enter ending value10
+1
+4
+9
+16
+25
+0 comments on 
