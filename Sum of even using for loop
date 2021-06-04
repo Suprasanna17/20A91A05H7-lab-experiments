@@ -1,0 +1,23 @@
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+sum1=0
+for num in range(s,e+1):
+    if(num%2==0):
+      sum1=sum1+num
+      print("num is %d and sum is %d"%(num,sum1))
+      print("sum is %d"%sum1)
+
+
+ output----
+ enter starting value1
+enter ending value10
+num is 2 and sum is 2
+sum is 2
+num is 4 and sum is 6
+sum is 6
+num is 6 and sum is 12
+sum is 12
+num is 8 and sum is 20
+sum is 20
+num is 10 and sum is 30
+sum is 30
