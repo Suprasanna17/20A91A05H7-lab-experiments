@@ -1,0 +1,15 @@
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+for num in range(s,e+1):
+    if num%2!=0:
+        print("odd numbers are %d"%num)
+
+
+output----
+enter starting value1
+enter ending value10
+odd numbers are 1
+odd numbers are 3
+odd numbers are 5
+odd numbers are 7
+odd numbers are 9
