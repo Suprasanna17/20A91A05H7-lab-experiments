@@ -1,0 +1,11 @@
+#input
+name=(input("enter name :"))
+n=int(input("enter n value :"))
+for i in range(n):
+    print(name)
+#output
+enter name : suprasanna
+enter n value :3
+suprasanna
+suprasanna
+suprasanna
