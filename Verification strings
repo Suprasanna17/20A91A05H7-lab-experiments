@@ -1,0 +1,13 @@
+s=input('enter a string')
+ for i in s 
+Print i 
+if i.islower(): 
+print(True) 
+break 
+else 
+print(False)
+
+#Output
+enter a string PYTHON
+PYTHON
+False
